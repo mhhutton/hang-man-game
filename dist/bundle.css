@@ -1,9 +1,36 @@
+/* src/index.css */
+body {
+  margin: 0;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    "Roboto",
+    "Oxygen",
+    "Ubuntu",
+    "Cantarell",
+    "Fira Sans",
+    "Droid Sans",
+    "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+code {
+  font-family:
+    source-code-pro,
+    Menlo,
+    Monaco,
+    Consolas,
+    "Courier New",
+    monospace;
+}
+
+/* src/App.css */
 .App {
   text-align: center;
   padding: 10px;
-  border: 40px solid yellowgreen;
 }
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -14,7 +41,6 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
 .TitleBar {
   display: flex;
   flex-direction: column;
